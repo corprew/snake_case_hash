@@ -59,7 +59,7 @@ Copyright (c) 2010 Tom Cocca. See LICENSE for details.
 
 === Acknowledgements
 
-* Zac Colon (https://github.com/wzcolon) for initially moving Rash to a new namespace.
+* Zac Colon (https://github.com/wzcolon) for initially moving Rash to a new namespace and updating dependencies.
 * Trocca (https://github.com/tcocca) for Rash
 * Intridea (https://github.com/intridea) for Hashie
 * Mislav Marohnić (https://github.com/mislav) for contributions to Rash
