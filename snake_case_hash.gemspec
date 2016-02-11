@@ -1,17 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "rash/version"
+require "snake_case_hash/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{rash}
-  s.authors = ["tcocca, wzcolon"]
+  s.name = %q{snake_cash_hash}
+  s.authors = ["tcocca, wzcolon, corprew"]
   s.description = %q{simple extension to Hashie::Mash for rubyified keys, all keys are converted to underscore to eliminate horrible camelCasing}
   s.email = %q{}
-  s.homepage = %q{http://github.com/wzcolon/rash}
+  s.homepage = %q{http://github.com/corprew/snake_case_hash}
   s.rdoc_options = ["--charset=UTF-8"]
   s.summary = %q{simple extension to Hashie::Mash for rubyified keys}
 
-  s.version = Rash::VERSION
+  s.version = SnakeCaseHash::VERSION
 
   s.add_dependency 'hashie', '~> 3.0'
   s.add_development_dependency 'rake', '~> 0.9'

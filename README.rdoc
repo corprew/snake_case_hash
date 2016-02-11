@@ -1,10 +1,11 @@
-= rash
+= Snake Case Hash  (was: Rash)
 
 == This version of Rash has been modified to use an updated version of Hashie
+== This version of rash has been renamed snake_case_hash gem (with class Hashie::SCHash) to avoid namespace conflicts in gem dependencies.
 
-Rash is an extension to Hashie ( http://github.com/intridea/hashie )
+Snake Cash Hash is an extension to Hashie ( http://github.com/intridea/hashie ) that was originally named Rash.
 
-Rash subclasses Hashie::Mash to convert all keys in the hash to underscore
+SCHash subclasses Hashie::Mash to convert all keys in the hash to underscore
 
 The purpose of this is when working w/ Java (or any other apis) that return hashes (including nested) that have camelCased keys
 
@@ -12,7 +13,7 @@ You will now be able to access those keys through underscored key names (camelCa
 
 == Usage
 
-  @rash = Hashie::Rash.new({
+  @rash = Hashie::SCHash.new({
     "varOne" => 1,
     "two" => 2,
     :three => 3,
@@ -56,6 +57,7 @@ Copyright (c) 2010 Tom Cocca. See LICENSE for details.
 
 === Acknowledgements
 
+* Zac Colon (https://github.com/wzcolon) for initially moving Rash to a new namespace.
 * Trocca (https://github.com/tcocca) for Rash
 * Intridea (https://github.com/intridea) for Hashie
 * Mislav Marohnić (https://github.com/mislav) for contributions to Rash

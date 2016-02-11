@@ -1,4 +1,4 @@
-require File.expand_path('../../lib/rash', __FILE__)
+require File.expand_path('../../lib/sc_hash', __FILE__)
 
 require 'rspec'
 require 'pry'
