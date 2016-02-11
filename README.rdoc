@@ -1,7 +1,9 @@
 = Snake Case Hash  (was: Rash)
 
-== This version of Rash has been modified to use an updated version of Hashie
-== This version of rash has been renamed snake_case_hash gem (with class Hashie::SCHash) to avoid namespace conflicts in gem dependencies.
+== This version of rash has been renamed snake_case_hash gem (with class Hashie::SCHash) to avoid namespace conflicts in gemspec.
+
+
+This was needed because Hashie version 3 introduced a new class Hashie::Rash that interfered with the Hashie::Rash class that was in the Rash gem, and the maintainer of the Rash gem hasn't been updated.  I guess this is a fork but just to avoid problems around loading gems in .gemspec files (which unlike bundler doesn't allow you to specify git sources.)
 
 Snake Cash Hash is an extension to Hashie ( http://github.com/intridea/hashie ) that was originally named Rash.
 
