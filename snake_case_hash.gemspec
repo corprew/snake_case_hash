@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "snake_case_hash/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{snake_cash_hash}
+  s.name = %q{snake_case_hash}
   s.authors = ["tcocca, wzcolon, corprew"]
   s.description = %q{simple extension to Hashie::Mash for rubyified keys, all keys are converted to underscore to eliminate horrible camelCasing}
   s.email = %q{}
