@@ -8,7 +8,7 @@ task :test => :spec
 task :default => :spec
 
 require 'rdoc/task'
-require File.expand_path('../lib/rash/version', __FILE__)
+require File.expand_path('../lib/snake_case_hash/version', __FILE__)
 RDoc::Task.new do |rdoc|
   version = SnakeCaseHash::VERSION
 
