@@ -1,1 +1,1 @@
-require 'hashie/sc_hash'
+require 'hashie/sc_hash'
