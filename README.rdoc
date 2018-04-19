@@ -1,6 +1,6 @@
 = Snake Case Hash  (was: Rash)
 
-== If you are reading this in 2018, don't use this gem -- this is only kept around because some products of other people have it as a dependency and I have sent a pull request to them with better solutions.
+== If you are reading this in 2018, don't use this gem -- this is only kept around because some products from other people have it as a dependency and I have sent a pull request to them with better solutions.
 
 == This version of rash has been renamed snake_case_hash gem (with class Hashie::SCHash) to avoid namespace conflicts in gemspec.
 
